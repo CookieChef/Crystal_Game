@@ -18,4 +18,4 @@ If the user wins or losses it will prompt an alert that will then refresh the pa
 
 ## Link to play the game: 
 
-    *
+    *https://cookiechef.github.io/Crystal_Game/
