@@ -1,14 +1,10 @@
 $(document). ready(function() {
     var goal=0;
-    var win =0;
-    var lose=0;
     var currentVal=0;
     var red, blue, green, yellow;
     
        //display the score
        $("#currentVal").text("Current crystals: " + currentVal);
-       $("#wins").text("Wins: " + win);
-       $("#losses").text("Losses: " + lose);
        $("#goal").text("Your goal is: " + goal);
    
 
@@ -45,14 +41,12 @@ $(document). ready(function() {
         console.log("current value: " + currentVal);
         
     if (currentVal === goal) {
-        win++;
-        $("#wins").text("Wins: " + win);
-        win = parseInt(win);
+       alert("You Win!!");
+       window.location="index.html";
         
     }if (currentVal > goal) {
-        lose++;
-        $("#losses").text("Losses: " + lose);
-        lose = parseInt(lose);
+       alert("You Lose!");
+       window.location="index.html";
         }
     })
     $("#green").on("click", function() {
@@ -61,14 +55,12 @@ $(document). ready(function() {
         console.log("current value: " + currentVal);
         
     if (currentVal === goal) {
-        win++;
-        $("#wins").text("Wins: " + win);
-        win = parseInt(win);
+        alert("You Win!!");
+        window.location="index.html";
         
     }if (currentVal > goal) {
-        lose++;
-        $("#losses").text("Losses: " + lose);
-        lose = parseInt(lose);
+        alert("You Lose!");
+        window.location="index.html";
         }
     })
     $("#blue").on("click", function() {
@@ -77,35 +69,32 @@ $(document). ready(function() {
         console.log("current value: " + currentVal);
         
     if (currentVal === goal) {
-        win++;
-        $("#wins").text("Wins: " + win);
-        win = parseInt(win);
+        alert("You Win!!");
+        window.location="index.html";
         
     }if (currentVal > goal) {
-        lose++;
-        $("#losses").text("Losses: " + lose);
-        lose = parseInt(lose);
+        alert("You Lose!");
+        window.location="index.html";
         }
     })
     $("#yellow").on("click", function() {
         currentVal+= yellow;
         $("#currentVal").text("Current crystals: " + currentVal);  
         console.log("current value: " + currentVal);
+         if (currentVal == goal) {
+        alert("You Win!!");
+        window.location="index.html";
+        
+    }if (currentVal > goal) {
+        alert("You Lose!");
+        window.location="index.html";
+        }
         
     })
 
 
 
-    if (currentVal == goal) {
-        win++;
-        $("#wins").text("Wins: " + win);
-        win = parseInt(win);
-        
-    }if (currentVal > goal) {
-        lose++;
-        $("#losses").text("Losses: " + lose);
-        lose = parseInt(lose);
-        }
+   
 
         
     
