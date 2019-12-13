@@ -10,6 +10,8 @@ If the user wins or losses it will prompt an alert that will then refresh the pa
 
     * The game then uses conditional values to see if the user reached the goal of it the user exceeds the goal value. 
 
+User can look at the console log to see the values of each gem.
+
 ## Special thanks to: 
 
     * images used for the gems are from: https://www.flaticon.com/
