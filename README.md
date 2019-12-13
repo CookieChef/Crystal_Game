@@ -16,6 +16,6 @@ If the user wins or losses it will prompt an alert that will then refresh the pa
 
     * text icons were taken from: https://coolsymbol.com/
 
-## Link to play the game: 
+## Links: 
 
     * https://cookiechef.github.io/Crystal_Game/
