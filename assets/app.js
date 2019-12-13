@@ -7,15 +7,12 @@ $(document).ready(function () {
     $("#currentVal").text("Current crystals: " + currentVal);
     $("#goal").text("Your goal is: " + goal);
 
-
-    //assign random goal value 
-
+    //assign random goal value
 
     var goal = Math.floor(Math.random() * 100) + 19; {
         $("#goal").text("Your goal is: " + goal);
         console.log("your goal is: " + goal);
     }
-
 
     //assign random value to each gem
 
@@ -31,8 +28,6 @@ $(document).ready(function () {
     var yellow = Math.floor(Math.random() * 10) + 1; {
         console.log("yellow value is: " + yellow);
     }
-
-
 
     //assign on click function to each gem and the sum of each to the current value
     $("#red").on("click", function () {
@@ -91,13 +86,6 @@ $(document).ready(function () {
         }
 
     })
-
-
-
-
-
-
-
 })
 
 
