@@ -25,5 +25,5 @@ User can look at the console log to see the values of each gem.
     Github repository: https://github.com/CookieChef/Crystal_Game.git
 
 
-    ![Crystal Collector Overview](<img src="assets/pictures/Crystal Collector.png")
+    ![Crystal Collector Overview](http://assets/pictures/Crystal Collector.png)
 
