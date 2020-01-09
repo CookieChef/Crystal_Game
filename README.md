@@ -1,8 +1,5 @@
 # Crystal Game! 
 
-
-![Crystal Collector Overview](assets/pictures/Crystal Collector.png)
-
 To win the game the user must reach a goal number that is randomized at the beginning of the game by clicking on gems that also have a random value assigned to them. 
 
 If the user wins or losses it will prompt an alert that will then refresh the page allowing the user to continue playing with a new goal and new gem values. 
@@ -27,4 +24,4 @@ User can look at the console log to see the values of each gem.
 
     Github repository: https://github.com/CookieChef/Crystal_Game.git
 
-
+![Crystal Collector Overview](Crystal Collector.png)
